@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_getx/Getxdailog.dart';
 import 'package:flutter_getx/HomeScreen.dart';
 import 'package:get/get.dart';
 
@@ -11,7 +12,7 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const GetMaterialApp(
-        debugShowCheckedModeBanner: false, home: HomeScreen());
+    return GetMaterialApp(
+        debugShowCheckedModeBanner: false, home: Dialog_Alert());
   }
 }
